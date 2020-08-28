@@ -4,7 +4,11 @@ class Result extends Component {
     render() {
         return (
             <div>
-                <input type = "button" value = "Calculate"></input>
+                    <span className ="total-tip">Total Tip:</span>
+                    <span className ="tip-p">Tip per Person:</span>
+
+                    <span className = "tip-value">{this.props.totalTip}</span>
+                    <span className = "tip-p-value">{this.props.tipPerPerson}</span>
             </div>
         )
     }
