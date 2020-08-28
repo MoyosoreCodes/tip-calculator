@@ -2,9 +2,215 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.total-tip {
+  position: absolute;
+  width: 74px;
+  height: 21px;
+  left: 30px;
+  top: 450px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+.tip-p {
+  position: absolute;
+  width: 121px;
+  height: 21px;
+  left: 30px;
+  top: 503px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.tip-value{
+  position: absolute;
+  width: 56px;
+  height: 21px;
+  left: 324px;
+  top: 450px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.tip-p-value {
+  position: absolute;
+  width: 46px;
+  height: 21px;
+  left: 335px;
+  top: 503px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.logo {
+  top: 20px;
+  margin-left: -110px;
+  position: absolute;
+  height: 35px;
+  color: #000;
+}
+.main-content {
+  background: #E5E5E5;;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 30px;
+  position: relative;
+  width: 411px;
+  height: 90vh;
+  color: #000;
+}
+
+.main-title {
+  position: absolute;
+  width: 190px;
+  height: 28px;
+  left: 110px;
+  top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.bill-amount p{
+  position: absolute;
+  width: 201px;
+  height: 23px;
+  left: 30px;
+  top: 65px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+}
+
+.bill-amount input{
+  position: absolute;
+  width: 350px;
+  height: 25px;
+  left: 30px;
+  top: 115px;
+
+  background: #C4C4C4;
+}
+
+.bill-percent p{
+  position: absolute;
+  width: 296px;
+  height: 23px;
+  left: 30px;
+  top: 147px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.bill-percent select{
+  position: absolute;
+  width: 360px;
+  height: 30px;
+  left: 30px;
+  top: 197px;
+  border-radius: 8px black ;
+
+  background: #C4C4C4;
+
+}
+
+.bill-percent-option {
+  position: absolute;
+  width: 170px;
+  height: 25px;
+  left: 45px;
+  top: 201px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.bill-people p {
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: 30px;
+  top: 230px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.bill-people input{
+  
+  position: absolute;
+  width: 350px;
+  height: 25px;
+  left: 30px;
+  top: 279px;
+
+  background: #C4C4C4;
+}
+
+.calc{
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  left: 30px;
+  top: 348px;
+
+  background: #4C8133;
+  border: 1px solid #333333;
+  text-transform: uppercase;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,24 +221,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
